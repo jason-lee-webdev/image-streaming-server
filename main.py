@@ -6,7 +6,7 @@ import asyncio
 app = FastAPI()
 
 # 이미지 파일 경로
-image_files = ["jeju-island.jpg", "bamboo-forest.jpg"]
+image_files = ["./jeju-island.jpg", "./bamboo-forest.jpg"]
 
 
 async def image_generator():
